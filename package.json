@@ -1,0 +1,8 @@
+{
+  "name": "saas-realtime-notifications",
+  "private": true,
+  "type": "module",
+  "scripts": {"typecheck": "tsc --noEmit", "test": "node --import tsx test/notification.test.ts", "demo": "node --import tsx src/notification_service.ts"},
+  "dependencies": {"zod": "latest"},
+  "devDependencies": {"tsx": "latest", "typescript": "latest", "@types/node": "latest"}
+}
